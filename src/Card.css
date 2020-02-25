@@ -1,0 +1,56 @@
+.Card {
+    font-family: 'Lato', serif ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.title {
+    font-size: 26px;
+    font-family: 'Oswald', serif ;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.subtitle {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Oswald', serif ;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.alignedInfo {
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'EB Garamond', serif ;
+}
+
+h6 {
+    margin-block-end: 0;
+    margin-block-start: 1em;
+}
+
+.leftInfo {
+    width: 40%;
+    color: #ffce00;
+}
+
+.rightInfo {
+    color: #89cff0;
+}
+
+.details {
+    margin-block-start: 0;
+    font-size: 18px;
+    display: inline-block;
+    background-color: darkgrey;
+    padding: 5px 15px 5px 15px;
+    margin: 4px;
+    color: black;
+    font-family: 'EB Garamond', serif ;
+}

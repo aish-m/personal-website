@@ -3,17 +3,40 @@
 }
 
 .App-header {
-  background-color: #DC143C;
+  background-color: #ffce00;
   min-height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 12vmin);
-  font-family: 'Acme', sans-serif;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: black;
-  text-shadow: 5px 5px black;
-  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 5px 5px #6d768e;
+  color: black;
+  border-bottom: 7px solid black;
 }
+
+.footer {
+  background-color: grey;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 7px solid black;
+}
+
+.box {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 20px 50px 20px 50px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  text-shadow: 1px 1px black;
+}
+
 
