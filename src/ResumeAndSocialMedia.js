@@ -27,11 +27,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
                 target="_blank"
             />
             <IconButton
-                href="https://www.instagram.com/aish_shastri/"
-                children={<InstagramIcon style={{ fontSize: 50 }} htmlColor="black"/>}
-                target="_blank"
-            />
-            <IconButton
                 href="https://www.facebook.com/aishwarya.shastri94"
                 children={<FacecookIcon style={{ fontSize: 50 }} htmlColor="black"/>}
                 target="_blank"
